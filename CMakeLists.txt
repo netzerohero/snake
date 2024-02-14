@@ -4,8 +4,9 @@ project(MY-RP6502-PROJECT C ASM)
 
 add_subdirectory(tools)
 
-add_executable(hello)
-rp6502_executable(hello)
-target_sources(hello PRIVATE
-    src/main.c
-)
+add_executable(snake)
+rp6502_executable(snake)
+target_sources(snake PRIVATE
+    src/snake.c
+    src/controller.s
+    )
