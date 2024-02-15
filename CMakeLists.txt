@@ -8,5 +8,6 @@ add_executable(snake)
 rp6502_executable(snake)
 target_sources(snake PRIVATE
     src/snake.c
+    src/basgraf.c
     src/controller.s
     )

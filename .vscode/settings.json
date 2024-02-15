@@ -15,4 +15,7 @@
     "cmake.preferredGenerators": [
         "Unix Makefiles"
     ],
+    "files.associations": {
+        "rp6502.h": "c"
+    },
 }
