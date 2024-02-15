@@ -37,10 +37,7 @@ Tip: if the snake moves too fast for you, use the pico's "SET PHI2" command to s
  * `winget install -e --id Git.Git`.
 
 ### Getting Started:
-Go to the [GitHub template](https://github.com/picocomputer/vscode-cc65) and
-select "Use this template" then "Create a new repository". GitHub will make a
-clean project for you to start with. Then you can download the repository
-and open the files.
+Clone the repository and build the project with VSCode.
 
 ```
 $ git clone [path_to_github]
