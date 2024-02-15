@@ -1,6 +1,20 @@
-# RP6502 VSCode Scaffolding for CC65
+# RP6502 Snake Game using the RP6502 CC65 VSCode
 
-This is scaffolding for a new Picocomputer 6502 software project.
+This is an example project using the Picocomputer 6502 cc65 VSCode scaffolding for the game: Snake.
+
+Credit for the original source code to: https://github.com/brentward/snake
+
+"Snake" illustrates fundemental graphics available on the picocomputer's video system
+using "mode-3" bitmapped graphics as well as basic keyboard input control.
+The source offers an opportunity to learn by its example.
+The source has been updated to use the latest cc65 picocomputer build-system scaffolding; 
+the original's SNES-controller inputs have been commented-out; new updated methods for various 
+input controls such as the PS4 Gamepad are now available on newer pico-RIA firmware (ver-0.7).  
+
+Snake code here uses only keyboard input: use the W S A D keys to control the snake's movements.
+
+Tip: if the snake moves too fast for you, use the pico's "SET PHI2" command to slow down the 6502.
+
 
 ### Linux Tools Install:
  * [VSCode](https://code.visualstudio.com/). This has its own installer.
